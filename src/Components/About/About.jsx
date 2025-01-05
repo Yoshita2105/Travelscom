@@ -1,10 +1,12 @@
 import React from 'react';
 import './About.css';
+import video from '../../Assets/video.mp4';
+
 
 const About = () => {
   return (
     <section className="about container section">
-      <div className="secTitle">
+      <div className="secTitles">
         <h3 className="title">About Us</h3>
         <p className="subtitle">We make your travel dreams come true!</p>
       </div>
@@ -24,11 +26,7 @@ const About = () => {
         </div>
 
         <div className="imageDiv">
-          <img
-            src="https://via.placeholder.com/600x400"
-            alt="About Us"
-            className="aboutImage"
-          />
+           <video src={video} muted autoPlay loop type="video/mp4"></video>
         </div>
       </div>
 

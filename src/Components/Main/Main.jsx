@@ -107,7 +107,7 @@ const Main = () => {
   return (
     <section className='main container section' id='main'>  
       <div className='secTitle'>
-        <h3 data-aos="fade-right" className='title titles'>
+        <h3 data-aos="fade-right" className='title titles '>
         Destination Spotlight
         </h3>
       </div>

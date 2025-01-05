@@ -28,7 +28,7 @@ const BookNow = () => {
     
     <section className="book-now container section">
       <div className="secTitle">
-        <h3 className="title">Book Your Dream Trip</h3>
+        <h3 className="subtitles ">Book Your Dream Trip</h3>
         <p className="subtitle">Let's make your travel dreams a reality!</p>
       </div>
 

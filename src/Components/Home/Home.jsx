@@ -105,8 +105,11 @@ const Home = () => {
          <Container>
             <Row>
                <Col lg='12'>
-                  <Subtitle subtitle={'Gallery'} />
-                  <h2 className="gallery__title">Visit our customers tour gallery</h2>
+                  <div className='secTitle'>
+        <h3 data-aos="fade-right" className='title titles'>
+        Visit our customers tour gallery
+        </h3>
+      </div>
                </Col>
                <Col lg='12'>
                   <MasonryImagesGallery />

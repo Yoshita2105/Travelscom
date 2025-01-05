@@ -17,12 +17,22 @@
   
   .title {
     font-size: 2.5rem;
+   text-align: center;
     font-weight: 700;
     color: rgb(29, 132, 211);
   }
+
+  
   
   .subtitle {
     font-size: 1.2rem;
+    text-align: center;
+    color:  rgb(29, 132, 211);
+  }
+
+  .subtitles {
+    font-size: 3rem;
+    text-align: center;
     color:  rgb(29, 132, 211);
   }
   

@@ -10,8 +10,8 @@
     padding-top: 50px;
   }
   
-  .secTitle {
-    text-align: center;
+  .secTitles {
+    text-align: left;
     margin-bottom: 40px;
   }
   
@@ -20,7 +20,7 @@
     font-weight: 700;
   }
   
-  .subtitle {
+  .subtitles {
     font-size: 1.2rem;
     color: #6c757d;
   }
@@ -32,6 +32,13 @@
     align-items: center;
     margin-bottom: 60px;
   }
+
+  @media (max-width: 768px) {
+    .secContents {
+        grid-template-columns: 1fr; /* Stack the columns on smaller screens */
+        gap: 20px; /* Reduce gap on smaller screens */
+    }
+}
   
   .textDivs {
     font-size: 1.1rem;

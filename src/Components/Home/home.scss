@@ -122,6 +122,12 @@
          }
       }
 
+      .secTitle {
+         .titles {
+            
+             width: fit-content;
+         }
+     }
       .searchOptions{
          position: absolute;
          background: var(--gradientColor);
