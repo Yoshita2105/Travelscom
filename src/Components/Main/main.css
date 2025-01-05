@@ -16,7 +16,7 @@
 .main {
   width: 100%;
 }
-.main .secTitle .title {
+.main .secTitles .titles {
   position: relative;
   width: -moz-max-content;
   width: max-content;
@@ -24,7 +24,7 @@
   margin: 1rem 0;
   z-index: 2;
 }
-.main .secTitle .title::after {
+.main .secTitles .titles::after {
   position: absolute;
   content: "";
   background: var(--SecondaryColor);
@@ -48,6 +48,36 @@
   box-shadow: 0 2px 4px rgba(140, 140, 141, 0.549);
   overflow: hidden;
 }
+
+.secTitle{
+       .title{
+         position: relative;
+         width: max-content;
+         color: var(--textColor);
+         margin: 1rem 0;
+         z-index: 2;
+
+         &::after{
+             position: absolute;
+             content: '';
+             background: var(--SecondaryColor);
+             height: 5px;
+             width: 120px;
+             right: 0;
+             bottom: 5px;
+             z-index: -1;
+         }
+       }
+       .titles{
+        width: fit-content;
+       }
+   }
+
+ 
+
+
+
+
 .main .secContent .singleDestination:hover {
   background: var(--cardHover);
   box-shadow: 1 4px 4px rgba(85, 85, 114, 0.549);
